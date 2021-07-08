@@ -1,0 +1,24 @@
+primitive data type
+store directly in the location the variable accesses , stored on the stack
+
+//reference data type
+//accessed by reference
+//objects that are stored on the heap
+//a pointer to a location in memory
+
+
+//primitive data types:
+string, number, boolean, null, undefined, symbols
+
+variable has not been assign value - undefined
+
+//reference type
+Arrays, object literals, functions, dates, anything else
+
+//dynamically typed language
+1. types are associated with values not variables
+2. the same variable can hold multiple types
+3. we do not need to specify types
+4. Most other language are statically typed
+5. there are supersets of JS and addons to allow static typing
+

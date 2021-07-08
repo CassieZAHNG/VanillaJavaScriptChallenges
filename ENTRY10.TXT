@@ -1,0 +1,84 @@
+// if(something){
+// do somthing
+// }else {
+//   do somthing
+// }
+
+
+const id = 100;
+
+//Equal
+// if (id == 100) {
+//   console.log('value correct')
+// } else {
+//   console.log('value incorrect')
+// }
+
+// //no equal 
+// if (id != 101) {
+//   console.log('correct')
+// } else {
+//   console.log('incorrect')
+// }
+
+//== test value
+//=== test type and value
+
+//Equal to value and type //recommend
+// if (id === 100) {
+//   console.log('type correct')
+// } else {
+//   console.log('type incorrect')
+// }
+
+
+//test if undefined
+// if (typeof id !== 'undefined') {
+//   console.log(`the id is ${id}`)
+// } else {
+//   console.log('no id')
+// }
+
+
+//greater or less then
+// if (id >= 100) {
+//   console.log(`correct`)
+// } else {
+//   console.log('incorrect')
+// }
+
+
+//if else
+// const color = 'yellow'
+// if (color === 'red') {
+//   console.log('Color is red')
+// } else if (color === 'blue') {
+//   console.log('Color is blue')
+// } else {
+//   console.log('Color is not red or blue')
+// }
+
+//logical operator
+const name = 'Steve';
+const age = 25;
+
+//AND &&
+if (age > 0 && age < 12) {
+  console.log(`${name} is a child`)
+} else if (age >= 13 && age <= 19) {
+  console.log(`${name} is a teen`)
+} else {
+  console.log(`${name} is a adult`)
+}
+
+
+//OR ||
+if (age < 16 || age > 65) {
+  console.log(`${name} can not run in race`)
+} else {
+  console.log(`${name} is registered for the race`)
+}
+
+
+// Ternary operator
+console.log(id === 100 ? 'correct' : 'incorrect')

@@ -1,0 +1,44 @@
+//primitive
+
+//string 
+const name = 'cassie';
+console.log(typeof name);
+
+//number
+const age = 45;
+console.log(typeof age)
+
+//boolean
+const hasKid = true;
+console.log(typeof hasKid);
+
+//null
+const car = null;
+console.log(typeof car)
+
+//undefined
+let test;
+console.log(typeof test);
+
+//symbol
+const sym = Symbol();
+console.log(typeof sym)
+
+//reference type
+
+//array
+const hobbies = ['movies', 'music'];
+console.log(typeof hobbies)
+
+//object literal
+const address = {
+  city: "melb",
+  state: "NSW"
+};
+console.log(typeof address)
+
+
+//DATE
+const today = new Date();
+console.log(today)
+console.log(typeof today)

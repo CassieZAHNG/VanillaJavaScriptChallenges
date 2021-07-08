@@ -1,0 +1,67 @@
+//DOM OBJECT
+//working with the ui
+
+//doc is part of window object
+//node js is js runtime 
+
+//Window methods/objects/properties
+
+//alert
+// window.alert('hello');
+
+//prompt
+// const input = prompt();
+// alert(input)
+
+//confirm - deleting something
+// if (confirm('are you sure?')) {
+//   console.log('Yes')
+// } else {
+//   console.log('no')
+// }
+
+//properties
+let val;
+
+//outter height and width
+val = window.outerHeight;
+val = window.outerWidth;
+
+//Inner height and width
+val = window.innerHeight;
+// val = window.innerWidth;
+
+//Scroll point
+// val = window.scrollY
+
+// console.log(val);
+
+//Location object
+// val = window.location;
+// val = window.location.hostname;
+// val = window.location.port
+// val = window.location.search
+
+
+//redirect
+// window.location.href = 'http://google.com'
+
+//reload page
+// window.location.reload() 
+
+//history object
+//get browseing history
+//  window.history.go(-2)
+
+// val = window.history.length
+
+//navigator object
+val = window.navigator
+val = window.navigator.appName
+val = window.navigator.appVersion
+val = window.navigator.userAgent
+val = window.navigator.platform
+val = window.navigator.vendor
+val = window.navigator.language
+
+console.log(val)

@@ -1,0 +1,73 @@
+//for loop
+
+// for (let i = 0; i < 10; i++) {
+//   //console.log(i);
+//   if (i === 2) {
+//     console.log('2 is my favorite number')
+//     continue
+//   }
+
+//   if (i === 5) {
+//     console.log('stop the loop')
+//     break
+
+//   }
+//   console.log(i);
+// }
+
+//WHILE Loop
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+//DO WHILE LOOP
+// let i = 10;
+// do {
+//   console.log(i);
+//   i++
+// }
+// while (i < 10)
+
+//Array
+const cars = ['Ford', 'Chevy', 'Honda', 'Toyota']
+// for (let i = 0; i < cars.length; i++) {
+//   console.log(cars[i])
+// }
+
+//loop a array
+cars.forEach(function (car, index, array) {
+  console.log(`${index} :${car}`)
+  console.log(array)
+})
+
+//Map
+const users = [
+  { id: 1, name: "John" },
+  { id: 2, name: "Doe" },
+  { id: 3, name: "Cassie" },
+]
+
+const ids = users.map(function (user) {
+  return user.id
+})
+
+const names = users.map(function (user) {
+  return user.name
+})
+
+console.log(ids)
+console.log(names)
+console.log(users[1])
+
+//For in loop
+const user = {
+  firstName: 'cassie',
+  lastName: 'zhang',
+  age: 30
+}
+
+for (let x in user) {
+  console.log(`${x} :${user[x]}`)
+}

@@ -1,0 +1,70 @@
+//string and concatenation
+
+const firstName = 'William';
+const lastName = 'Zhang';
+const age = 36
+const str = "hello my name is cassie zhange"
+const tags = 'web design, programming, development'
+
+
+
+
+let val;
+
+val = firstName + lastName;
+
+//concatenation
+val = firstName + " " + lastName;
+
+//append
+val = 'Brad ';
+val += "Traversy "
+
+
+val = 'hello, my name is: ' + firstName + ' and I am ' + age
+
+//escaping
+val = "'that's awesome, I can't wait";
+val = 'that\'s awesome, I can\'t wait';
+
+//length
+val = firstName.length
+
+//concat
+val = firstName.concat(' ', lastName)
+
+//change case
+val = firstName.toUpperCase()
+
+//readonly array
+val = firstName[0]
+
+//indexof()
+val = firstName.indexOf('l')
+//last indexof
+val = firstName.lastIndexOf('l')
+
+//charAt()
+val = firstName.charAt('0');
+
+//last character of string
+val = firstName.charAt(firstName.length - 1)
+
+//get substring
+val = firstName.substring(0, 4)
+
+//slice()
+val = firstName.slice(0, 4)
+val = firstName.slice(-3)
+
+//split
+val = str.split(' ')
+val = tags.split(',')
+
+//replace()
+val = str.replace('cassie', 'xi')
+
+//includes()
+val = str.includes('Hello')
+
+console.log(val)

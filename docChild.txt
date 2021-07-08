@@ -1,0 +1,53 @@
+let val;
+
+const list = document.querySelector('ul.collection')
+const listItem = document.querySelector('li.collection-item')
+// console.log(listItem)
+
+val = listItem
+val = list
+
+//get child nodes
+val = list.childNodes;
+
+//get children element nodes
+val = list.children
+// val = list.childNodes[3]
+// val = list.childNodes[3].nodeType
+
+// 1 - Element
+// 2 - Attribute
+// 3 - Text node
+// 8 - Comment
+// 9 - Document itself
+// 10 - Doctype
+val = list.children[1]
+list.children[1].textContent = 'hello'
+
+
+//Children of children
+val = list.children[3].children
+val = list.children[3].children[0]
+val = list.firstChild//first node / element/text node
+val = list.firstElementChild//most use case use this
+
+//last child
+val = list.lastChild
+val = list.lastElementChild
+//count child elements
+val = list.childElementCount;
+
+//parents
+val = listItem.parentNode
+val = listItem.parentElement
+val = listItem.parentElement.parentElement
+
+//get next siblings
+val = listItem.nextSibling
+val = listItem.nextElementSibling.nextElementSibling.previousElementSibling
+
+//get previous siblings
+// val = listItem.previousElementSibling
+// val = listItem.previousSibling
+
+console.log(val)

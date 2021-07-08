@@ -1,0 +1,52 @@
+
+console.log("greetting");
+console.log([1, 2, 3, 4]);
+console.log({ a: 1, b: 2 });
+console.table({ a: 1, b: 2 });
+console.error("this is some error");
+console.clear();
+console.warn("this is the warning")
+console.time('time');
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.timeEnd('time')
+
+//var, let, const
+var name = 'John Doe';
+console.log(name);
+name = 'Steve';
+console.log(name)
+//Init var
+var gretting;
+gretting = 'hello'
+console.log(gretting)
+
+//rule
+//can not start from number
+var _name = 'John'//private variable
+//$name jquery
+//Multi word vars
+var firstName = 'John';//camel case
+//es class Pascal case: FirstName
+
+//let, const, var
+//const cannot be change or reassign
+//Const have to assign value
+
+
+//const
+const person = {
+  name: 'john',
+  age: "70"
+}
+person.name = 'Sara'
+console.log(person)
+
+//array
+const number = [1, 2, 3, 5];
+number.push(6)
+console.log(number)
+
+//const code should not be reassign as primiary value
+//rubost, secury, and cannot be changed and readable
